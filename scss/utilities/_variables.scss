@@ -10,6 +10,18 @@ $border-color: #ccc;
 $white: #fff;
 
 // Button Colors
+$default-btn: #51ddfc;
+$error-btn: #e4757a;
+$info-btn: #927bc1;
+$success-btn: #63cc82;
+$warning-btn: #fd7856;
+
+// Hover Button Colors
+$default-btn-lighten: lighten($default-btn, 10%);
+$error-btn-lighten: lighten($error-btn, 10%);
+$info-btn-lighten: lighten($info-btn, 10%);
+$success-btn-lighten: lighten($success-btn, 10%);
+$warning-btn-lighten: lighten($warning-btn, 10%);
 
 // Font Stacks
 $lato-font-stack: "Lato", sans-serif;

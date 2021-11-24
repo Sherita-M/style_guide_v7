@@ -13,21 +13,41 @@
 }
 
 .default {
-  background-color: #51ddfc;
+  background-color: $default-btn;
+
+  &:hover {
+    background-color: $default-btn-lighten;
+  }
 }
 
 .error {
-  background-color: #e4757a;
+  background-color: $error-btn;
+
+  &:hover {
+    background-color: $error-btn-lighten;
+  }
 }
 
 .info {
-  background-color: #927bc1;
+  background-color: $info-btn;
+
+  &:hover {
+    background-color: $info-btn-lighten;
+  }
 }
 
 .success {
-  background-color: #63cc82;
+  background-color: $success-btn;
+
+  &:hover {
+    background-color: $success-btn-lighten;
+  }
 }
 
 .warning {
-  background-color: #fd7856;
+  background-color: $warning-btn;
+
+  &:hover {
+    background-color: $warning-btn-lighten;
+  }
 }
